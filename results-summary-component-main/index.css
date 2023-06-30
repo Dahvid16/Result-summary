@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: myfont;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+@media only screen and (max-width:100px) {
+    .card {
+        height: 90%;
+        width: 90%;
+}
+}
+
+body {
+    margin-top: 10%;
+    padding: 0;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    text-align: center;
+    
+}
+
+.r1 {
+    margin: auto;
+    padding: auto;
+    background-color: rgb(74, 74, 209);
+    color: rgba(255, 255, 255, .8);
+    float: left;
+    min-height: 400px;
+    max-height: 600px;
+    min-width: 280px;
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.round {
+    border-radius: 50%;
+    background-color: rgb(47, 47, 200);
+    text-align: center;
+    border: 0 none black;
+    color: white;
+    max-width: 250px;
+    min-width: 150px;
+    max-height: 200px;
+    min-height: 150px;
+    margin-top: 20px;
+    background-blend-mode: overlay;
+}
+
+.r2 {
+    float: left;
+}
+
+.n {
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.low {
+    margin-top: 2.7em;
+}
+
+.g {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.yy {
+    margin-top: .7em;
+    color: rgba(252, 252, 252, .7);
+}
+
+.y {
+    font-size: .7em;
+    padding: 0;
+}
+
+.r2 {
+    margin: auto;
+    padding: auto;
+    background-color: rgb(245, 245, 248);
+    color: white;
+    min-height: 400px;
+    max-height: 600px;
+    min-width: 280px;
+    max-width: 500px;
+    border-radius: 20px;
+    color: black;
+    text-align: left;
+}
+
+.s3 {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 15px;
+}
+
+.small {
+    text-align: left;
+}
+
+.w {
+    margin-top: 20px;
+}
+
+.end {
+    float: right;
+}
+
+.qs {
+    opacity: .5;
+}
+
+.block {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ff {
+    padding-left: 10px;
+    display: inline;
+}
+
+.ba {
+    background-color: rgba(201, 41, 67, 0.1);
+}
+
+.fa {
+    color: rgb(214, 22, 22);
+}
+
+.bb {
+    background-color: rgba(247, 182, 61, 0.1);
+}
+
+.fb {
+    color: rgb(212, 150, 35);
+}
+
+.bc {
+    background-color: rgba(39, 212, 39, 0.1);
+}
+
+.fc {
+    color: rgb(24, 189, 24);
+}
+
+.bd {
+    background-color: rgba(128, 146, 226, .1);
+}
+
+.fd {
+    color: blue;
+}
+
+.btn {
+    background-color: rgba(74, 74, 209, .9);
+    border: 0 none white;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 1em;
+    color: rgb(235, 232, 232);
+    border-radius: 25px;
+    cursor: pointer;
+}
